@@ -1,30 +1,12 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view/>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+<style lang="sass">
+body
+  background: linear-gradient(to left bottom, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39))
+  background-repeat: no-repeat
+  color: #9F9F9F
+  font-family: 'Montserrat', sans-serif
+  background-attachment: fixed
 </style>
